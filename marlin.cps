@@ -44,8 +44,8 @@ properties = {
   separateWordsWithSpace: true, // specifies that the words should be separated with a white space
   useCycles: true, // output canned cycles G81/G82/G83
   laserToolNumber: 1, // the tool number to use for laser cutting
-  laserEtchPower: 0.1, // the laser etching power
-  laserPower: 1, // laser cutting power
+  laserEtchPower: 10, // the laser etching power
+  laserPower: 100, // laser cutting power
   useLaserM3M5: true // activate/deactivate laser using M3/M5
 };
 
